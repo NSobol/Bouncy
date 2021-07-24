@@ -1246,12 +1246,15 @@ a {
 }
 
 .blog-content-more {
+    display: block;
+    padding-top: 8px;
+}
+
+.read {
     font-size: 16px;
-    line-height: 12px;
     color: #b2b3b3;
     font-weight: 400;
     font-family: "Open Sans";
-    padding-top: 13px;
 }
 
 .bullets2 {
