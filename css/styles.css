@@ -1072,6 +1072,7 @@ a {
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
+    filter: drop-shadow(0.707px 0.707px 0px rgba(0, 0, 0, 0.05));
 }
 
 .testimonials-block {
@@ -1152,6 +1153,7 @@ a {
 
 .blog-items {
     width: 1176px;
+    height: 690px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -1160,13 +1162,36 @@ a {
 }
 
 .blog-item {
-    padding-top: 80px;
+    display: none;
+}
+
+.blog-item-active {
+    display: block;
+}
+
+.blog-content {
+    box-sizing: border-box;
+    width: 600px;
+    height: 510px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-header {
+    padding: 0;
+    margin: 0;
+}
+
+.blog-container {
+    padding-left: 70px;
 }
 
 .blog-title {
     font-size: 20px;
     letter-spacing: 4px;
-    line-height: 12px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Source Sans Pro";
@@ -1175,19 +1200,11 @@ a {
 .blog-subtitle {
     font-size: 14px;
     letter-spacing: 1px;
-    line-height: 25px;
     color: #b2b3b3;
     font-weight: 400;
     font-family: "Open Sans";
     width: 467px;
     padding-top: 35px;
-}
-
-.blog-content {
-    width: 600px;
-    padding-top: 98px;
-    padding-left: 70px;
-    padding-bottom: 100px;
 }
 
 .blog-content-title {
@@ -1201,7 +1218,6 @@ a {
 
 .blog-content-author {
     font-size: 14px;
-    letter-spacing: 1px;
     color: #81868e;
     font-weight: 300;
     font-family: "Source Sans Pro";
@@ -1212,7 +1228,6 @@ a {
 
 .blog-content-info {
     font-size: 14px;
-    letter-spacing: 1px;
     color: #464646;
     font-weight: 300;
     font-family: "Source Sans Pro";
@@ -1221,12 +1236,10 @@ a {
 
 .blog-content-text {
     font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 25px;
     color: #81868e;
     font-weight: 400;
     font-family: "Open Sans";
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 
 
@@ -1576,6 +1589,7 @@ a {
     height: 190px;
     margin-bottom: 30px;
     border: 2px solid #d8dce0;
+    resize: none;
 }
 
 .form-button {
