@@ -1150,7 +1150,7 @@ a {
     background-size: cover;
 }
 
-.blog-container {
+.blog-items {
     width: 1176px;
     display: flex;
     flex-wrap: nowrap;
@@ -1159,7 +1159,7 @@ a {
     margin-right: auto;
 }
 
-.blog-section {
+.blog-item {
     padding-top: 80px;
 }
 
@@ -1275,7 +1275,7 @@ a {
     margin: 5px 0;
 }
 
-.bullet2:hover {
+.bullet2-dot-active {
     background-color: #b2b3b3;
 }
 
