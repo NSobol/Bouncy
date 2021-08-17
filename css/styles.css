@@ -1270,6 +1270,18 @@ a {
     font-family: "Open Sans";
 }
 
+.video-block {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 400px;
+}
+
+.video {
+    padding-left: 50%;
+    padding-top: 12%;
+}
+
 .bullets2 {
     display: flex;
     flex-wrap: wrap;
